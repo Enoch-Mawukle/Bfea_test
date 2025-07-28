@@ -7,7 +7,7 @@ import AIChat from "@/components/ui/ai-chat";
 // ✅ Proper imports from the assets folder
 import heroImage from "@/assets/team-photo.jpg";
 import director1 from "@/assets/board/director-1.jpg";
-import simon from "@/assets/team/Simon.jpg";
+import simon from "@/assets/team/simon.jpg";
 import ben from "@/assets/team/ben.jpg";
 import joshua from "@/assets/team/joshua.jpg";
 import pamela from "@/assets/team/pamela.jpg";
