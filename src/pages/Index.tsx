@@ -127,7 +127,7 @@ const Index = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center fade-in">
             <Button variant="hero" size="xl" asChild>
-              <Link to="/programs/core-academic">
+              <Link to="/register">
                 Join Our Programs
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
