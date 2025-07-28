@@ -45,10 +45,10 @@ const Team = () => {
             <div className="bg-card p-6 rounded-lg border text-center hover-scale">
               <img 
                 src={director1}
-                alt="Dr. Marcus Johnson - Executive Director"
+                alt="Thallas C. Lumpkin - Executive Director"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-bold mb-2 text-foreground">Dr. Marcus Johnson</h3>
+              <h3 className="text-xl font-bold mb-2 text-foreground">Thallas C. Lumpkin</h3>
               <p className="text-primary font-semibold mb-3">Executive Director</p>
               <p className="text-muted-foreground text-sm mb-4">
                 Ed.D. in Educational Leadership with 15 years of experience in urban education reform and community development.
@@ -61,10 +61,10 @@ const Team = () => {
             <div className="bg-card p-6 rounded-lg border text-center hover-scale">
               <img 
                 src={simon}
-                alt="Angela Washington - Director of Programs"
+                alt="Simon Apaflo - Director of Programs"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-bold mb-2 text-foreground">Angela Washington</h3>
+              <h3 className="text-xl font-bold mb-2 text-foreground">Simon Apaflo</h3>
               <p className="text-primary font-semibold mb-3">Director of Programs</p>
               <p className="text-muted-foreground text-sm mb-4">
                 M.Ed. in Curriculum and Instruction with expertise in culturally responsive pedagogy and family engagement.
@@ -77,10 +77,10 @@ const Team = () => {
             <div className="bg-card p-6 rounded-lg border text-center hover-scale">
               <img 
                 src={ben}
-                alt="David Thompson - Community Outreach Manager"
+                alt="Benjamin Apafloe - Community Outreach Manager"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-bold mb-2 text-foreground">David Thompson</h3>
+              <h3 className="text-xl font-bold mb-2 text-foreground">Benjamin Apafloe</h3>
               <p className="text-primary font-semibold mb-3">Community Outreach Manager</p>
               <p className="text-muted-foreground text-sm mb-4">
                 B.A. in Social Work with extensive experience in community organizing and partnership development.
@@ -93,10 +93,10 @@ const Team = () => {
             <div className="bg-card p-6 rounded-lg border text-center hover-scale">
               <img 
                 src={joshua}
-                alt="Dr. Keisha Williams - Director of Research"
+                alt="Joshua Petiafo - Director of Research"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-bold mb-2 text-foreground">Dr. Keisha Williams</h3>
+              <h3 className="text-xl font-bold mb-2 text-foreground">Joshua Petiafo</h3>
               <p className="text-primary font-semibold mb-3">Director of Research</p>
               <p className="text-muted-foreground text-sm mb-4">
                 Ph.D. in Educational Psychology specializing in academic achievement gaps and intervention strategies.
@@ -109,10 +109,10 @@ const Team = () => {
             <div className="bg-card p-6 rounded-lg border text-center hover-scale">
               <img 
                 src={pamela}
-                alt="James Miller - Operations Director"
+                alt="Pamela Beyir - Operations Director"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-bold mb-2 text-foreground">James Miller</h3>
+              <h3 className="text-xl font-bold mb-2 text-foreground">Pamela Beyir</h3>
               <p className="text-primary font-semibold mb-3">Operations Director</p>
               <p className="text-muted-foreground text-sm mb-4">
                 MBA in Nonprofit Management with expertise in organizational development and financial sustainability.
@@ -125,10 +125,10 @@ const Team = () => {
             <div className="bg-card p-6 rounded-lg border text-center hover-scale">
               <img 
                 src={lumpkin}
-                alt="Tiffany Roberts - Youth Development Coordinator"
+                alt="Tyson Lumpkin - Youth Development Coordinator"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-bold mb-2 text-foreground">Tiffany Roberts</h3>
+              <h3 className="text-xl font-bold mb-2 text-foreground">Tyson Lumpkin</h3>
               <p className="text-primary font-semibold mb-3">Youth Development Coordinator</p>
               <p className="text-muted-foreground text-sm mb-4">
                 M.S. in Counseling Psychology with specialization in adolescent development and mentorship programs.

@@ -12,31 +12,31 @@ import { Linkedin, Mail, Award, GraduationCap } from "lucide-react";
 const Board = () => {
   const boardMembers = [
     {
-      name: "Dr. Marcus Williams",
+      name: " Lt Col (Ret) Thallas C. Lumpkin",
       title: "Chairman of the Board",
       image: director1,
-      bio: "Dr. Williams brings over 20 years of experience in educational leadership and nonprofit governance. He holds a Ph.D. in Educational Administration from Harvard University and has served on multiple boards focused on advancing educational equity.",
+      bio: " Lt Col (Ret) Thallas C. Lumpkin brings over 20 years of experience in educational leadership and nonprofit governance. He holds a Ph.D. in Educational Administration from Harvard University and has served on multiple boards focused on advancing educational equity.",
       expertise: ["Educational Leadership", "Strategic Planning", "Nonprofit Governance", "Community Development"],
       linkedin: "#",
-      email: "marcus.williams@bfea.org"
+      email: "thallas.lumpkin@bfea.org"
     },
     {
-      name: "Prof. Angela Thompson",
+      name: "Mrs. Sharon Riley",
       title: "Vice Chairman & Academic Affairs",
       image: director2,
-      bio: "Professor Thompson is a distinguished educator with 15 years of experience in curriculum development and teacher training. She specializes in culturally responsive pedagogy and has published extensively on education in African American communities.",
+      bio: "Mrs. Sharon Riley is a distinguished educator with 15 years of experience in curriculum development and teacher training. She specializes in culturally responsive pedagogy and has published extensively on education in African American communities.",
       expertise: ["Curriculum Development", "Teacher Training", "Cultural Education", "Academic Excellence"],
       linkedin: "#",
-      email: "angela.thompson@bfea.org"
+      email: "sharon.riley@bfea.org"
     },
     {
-      name: "Mr. David Johnson",
+      name: "Mr. Daniel E. Ings",
       title: "Secretary & Community Outreach",
       image: director3,
-      bio: "Mr. Johnson is a seasoned community organizer and social entrepreneur. He founded several successful youth development programs and has extensive experience in building partnerships between educational institutions and communities.",
+      bio: "Mr. Daniel is a seasoned community organizer and social entrepreneur. He founded several successful youth development programs and has extensive experience in building partnerships between educational institutions and communities.",
       expertise: ["Community Engagement", "Youth Development", "Partnership Building", "Social Innovation"],
       linkedin: "#",
-      email: "david.johnson@bfea.org"
+      email: "daniel.ings@bfea.org"
     }
   ];
 
