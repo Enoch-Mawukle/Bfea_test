@@ -32,6 +32,7 @@ import Events from "./pages/Events";
 import Contact from "./pages/Contact";
 import Donate from "./pages/Donate";
 import Register from "./pages/Register";
+import ImpactGallery from './pages/ImpactGallery';
 import UnifiedRegister from "./pages/UnifiedRegister";
 
 const queryClient = new QueryClient();
@@ -70,6 +71,7 @@ const App = () => (
           <Route path="/events" element={<Events />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/donate" element={<Donate />} />
+          <Route path="/impact/gallery" element={<ImpactGallery />} />
           <Route path="/register" element={<UnifiedRegister />} />
           
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

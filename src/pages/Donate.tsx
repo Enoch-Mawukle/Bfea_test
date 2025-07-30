@@ -49,8 +49,9 @@ const Donate = () => {
     <div className="min-h-screen">
       <Navigation />
       
+      {/* Hero Section */}
       <section 
-        className="pt-32 pb-20 bg-gradient-primary text-white"
+        className="relative pt-32 pb-20 text-white min-h-[60vh] flex items-center"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${donateBackground})`,
           backgroundSize: 'cover',

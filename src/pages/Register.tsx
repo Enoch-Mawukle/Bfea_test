@@ -4,6 +4,7 @@ import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import AIChat from "@/components/ui/ai-chat";
 import { useToast } from "@/hooks/use-toast";
+import heroBackground from "@/assets/volunteer-registration.jpg";
 import { GraduationCap, Users, Heart, Globe, BookOpen, Trophy, CheckCircle } from "lucide-react";
 
 const Register = () => {
@@ -142,7 +143,7 @@ const Register = () => {
       <section 
         className="relative pt-32 pb-20 text-white min-h-[60vh] flex items-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/src/assets/volunteer-registration.jpg)`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${heroBackground})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'

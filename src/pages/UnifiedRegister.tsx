@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import AIChat from "@/components/ui/ai-chat";
+import heroBackground from "@/assets/volunteer-registration.jpg";
 import { useToast } from "@/hooks/use-toast";
 import { 
   GraduationCap, 
@@ -145,7 +146,7 @@ const UnifiedRegister = () => {
   });
 
   const userTypes = [
-    { value: "learner", label: "Learner", icon: <GraduationCap className="w-5 h-5" />, description: "Join our educational programs" },
+    { value: "learner", label: "Student", icon: <GraduationCap className="w-5 h-5" />, description: "Join our educational programs" },
     { value: "intern", label: "Intern", icon: <User className="w-5 h-5" />, description: "Gain professional experience" },
     { value: "volunteer", label: "Volunteer", icon: <UserCheck className="w-5 h-5" />, description: "Support our community" },
     { value: "career", label: "Career Applicant", icon: <Building className="w-5 h-5" />, description: "Join our team" }
@@ -931,7 +932,7 @@ const UnifiedRegister = () => {
       <section 
         className="relative pt-32 pb-20 text-white min-h-[60vh] flex items-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/src/assets/volunteer-registration.jpg)`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${heroBackground})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
